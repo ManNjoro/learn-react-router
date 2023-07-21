@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.navbar {
+  display: flex;
+  background-color: beige;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
+}
+.nav-links {
+  display: flex;
+  gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.van-btn {
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgb(247, 177, 47);
+  border-radius: 5px;
+  border: none;
+  width: 30%;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.find-van {
+  background-image: url('./images/home-hero.png');
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(31, 30, 30);
+  color: darkgrey;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  padding: 5px;
+}
+.about-img {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-content {
+  padding: 10px;
+}
+
+.sedan {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.explore {
+  background-color: rgb(248, 200, 110);
+  padding: 10px;
+}
+
+.explore-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
