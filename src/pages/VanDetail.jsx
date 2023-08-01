@@ -26,7 +26,6 @@ export default function VanDetail() {
         <p>{van.description}</p>
         <button className="link-button">Rent this van</button>
       </div>
-      <h2>Loading...</h2>
     </div>
   );
 }
