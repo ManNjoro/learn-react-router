@@ -328,3 +328,7 @@ header .login-link {
   display: inline-flex;
   align-items: center;
 }
+
+.red {
+  color: red;
+}
